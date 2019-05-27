@@ -54,6 +54,7 @@ const switchMain = target => {
     if (mains[i].id === target) {
       if (mains[i].classList.contains("hidden")) {
         mains[i].classList.remove("hidden");
+        mains[i].scrollIntoView();
       }
     } else {
       mains[i].classList.add("hidden");
