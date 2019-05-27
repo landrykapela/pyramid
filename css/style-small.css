@@ -1,0 +1,428 @@
+@media only screen and (max-width: 599px) {
+  body {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    color: #0b0b0b;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  /* state selectors */
+  .active {
+    background-color: #863895;
+    color: white;
+    border-radius: 15px;
+  }
+  li.active {
+    background-color: #ffab91;
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+
+  /* layouts */
+
+  header {
+    width: 100vw;
+    display: block;
+    height: auto;
+    max-height: 40vh;
+    justify-content: center;
+    background-color: #863895;
+  }
+  main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em 5vw;
+  }
+  section {
+    width: 100%;
+  }
+  footer {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2em 5vw;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    font-family: raleway, sans-serif;
+  }
+  .head-container {
+    margin: 0 auto;
+    border: 0px solid red;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container {
+    margin: 0 auto;
+    border: 0px solid red;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dynamic-container {
+    margin: 0 auto;
+    max-width: 100%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 40vh;
+  }
+  .container {
+    margin: -32px auto;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+  }
+  .para-text {
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+    display: none;
+  }
+  nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  nav span {
+    padding: 0.5em 1em;
+    font-family: "Raleway", sans-serif;
+    color: #863895;
+    margin: 0.2em 0.2em;
+    vertical-align: middle;
+  }
+  nav span:hover {
+    background-color: #b867c6;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  /* background color selector */
+  .primary {
+    background-color: #b867c6;
+    color: black;
+  }
+  .primary-light {
+    background-color: #ec97f9;
+    color: black;
+  }
+  .primary-dark {
+    background-color: #863895;
+    color: white;
+  }
+  .secondary {
+    background-color: #ffab91;
+    color: black;
+  }
+  .secondary-light {
+    background-color: #ffddc1;
+    color: black;
+  }
+  .secondary-dark {
+    background-color: #c97b63;
+    color: black;
+  }
+  .white {
+    background-color: white;
+    color: #863895;
+  }
+  .black {
+    background-color: black;
+    color: white;
+  }
+
+  /* text color selector */
+
+  .text-primary {
+    color: #b867c6;
+  }
+  .text-secondary {
+    color: #ffab91;
+  }
+  .text-primary-dark {
+    color: #863895;
+  }
+  .text-secondary-dark {
+    color: #c97b63;
+  }
+  .text-primary-light {
+    color: #ec97f9;
+  }
+  .text-secondary-light {
+    color: #ffddc1;
+  }
+  .text-white {
+    color: white;
+  }
+  .text-black {
+    color: black;
+  }
+
+  /* individual selectors */
+  img.feature-img {
+    display: none;
+    width: 50%;
+    height: 280px;
+  }
+  div.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    max-width: 100%;
+  }
+  div.feature-card img {
+    width: 100px;
+    height: 100px;
+    margin: 1em;
+    border-radius: 50%;
+    border: 1px solid #c97b63;
+  }
+
+  div.feature-card p.text {
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  div.feature-card p.readmore {
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  .panel-text {
+    text-align: left;
+    width: 100%;
+    height: 280px;
+    font-family: "roboto", sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button {
+    padding: 1em 1.2em;
+    font-family: "Exo 2", sans-serif;
+    color: #863895;
+    margin: 2em 0.5em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+  }
+
+  .spacer-small,
+  .spacer-medium,
+  .spacer-large,
+  .spacer-small-vert,
+  .spacer-medium-vert,
+  .spacer-large-vert {
+    display: block;
+  }
+  .spacer-small {
+    width: 20px;
+  }
+  .spacer-medium {
+    width: 50px;
+  }
+  .spacer-large {
+    width: 200px;
+  }
+  .spacer-small-vert {
+    height: 20px;
+  }
+  .spacer-medium-vert {
+    height: 50px;
+  }
+  .spacer-large-vert {
+    height: 200px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .menu,
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 2em;
+  }
+  .menu div,
+  .contacts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .menu div span,
+  .contacts div span {
+    padding: 0.5em 0;
+    font-family: "Raleway", sans-serif;
+    color: black;
+  }
+  .menu div span:hover {
+    color: white;
+    cursor: pointer;
+  }
+  .menu h4,
+  .contacts h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+  }
+  form.main-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 60vw;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form-control input[type="email"],
+  .form-control input[type="text"] {
+    padding: 0.5em 1em;
+    width: 90%;
+    height: 2em;
+    border-radius: 5px;
+    border: 1px solid #b867c6;
+    font-size: 1.2em;
+  }
+  .form-control textarea {
+    width: 90%;
+    padding: 0.5em 1em;
+    height: 200px;
+    border: 1px solid #b867c6;
+    font-size: 1.2em;
+  }
+  .form-control input[type="submit"] {
+    border-radius: 20px;
+    padding: 1em 1em 1em 1em;
+    font-family: "Exo 2", sans-serif;
+    width: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .title {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "exo 2", sans-serif;
+  }
+  .company-name {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+  .slogan {
+    color: #ffab91;
+    font-size: 0.8em;
+  }
+  .social div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .social img {
+    width: 30px;
+    height: 30px;
+    margin: 0.5em;
+    border-radius: 50%;
+  }
+  .social a,
+  .social a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  .social a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  #menu-but {
+    display: block;
+    color: white;
+    margin-right: 0.5em;
+    cursor: pointer;
+    font-size: 3em;
+    border-radius: 5px;
+  }
+  #collapse-nav {
+    flex-direction: column;
+    list-style: none;
+    cursor: pointer;
+    padding: 1em;
+  }
+  #collapse-nav li {
+    padding: 0.5em 1em;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin: 0.2em 0.2em;
+    vertical-align: middle;
+  }
+  #collapse-nav li:hover {
+    background-color: #b867c6;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+}
